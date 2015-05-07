@@ -1,5 +1,6 @@
 # Kingfisher-ProgressView
 Adding a progress view while images are downloaded using Kingfisher
+
 ![](example.jpg)
 
 
@@ -9,11 +10,11 @@ Add UIImageView+ProgressView.swift to your project
 ## Usage
 ```
 img.kf_setImageWithURL(NSURL(string: imgURL)!,
-placeholderImage: UIImage(named: "photo-placeholder"),
-options: KingfisherOptions.None,
-progressBlock: nil,
-completionHandler: nil,
-usingProgressView: nil
+  placeholderImage: UIImage(named: "photo-placeholder"),
+  options: KingfisherOptions.None,
+  progressBlock: nil,
+  completionHandler: nil,
+  usingProgressView: nil
 )
 ```
 
